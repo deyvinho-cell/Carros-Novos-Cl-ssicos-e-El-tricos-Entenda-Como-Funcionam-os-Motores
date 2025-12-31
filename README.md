@@ -1,2 +1,2 @@
-# Carros-Novos-Cl-ssicos-e-El-tricos-Entenda-Como-Funcionam-os-Motores
-crie uma descrição de um e-book com 100 caracteres, q fala sobre carros novos, antigos e elétricos
+# Carros Novos Clássicos e Elétricos Entenda Como Funcionam os Motores
+Um guia completo sobre carros novos, clássicos e elétricos, com história, inovação e futuro. global!

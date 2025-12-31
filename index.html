@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-book | Carros Novos, Clássicos e Elétricos</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #0f172a;
+      color: #f8fafc;
+    }
+
+    header {
+      padding: 60px 20px;
+      text-align: center;
+      background: linear-gradient(135deg, #020617, #1e293b);
+    }
+
+    header h1 {
+      font-size: 2.4rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: #cbd5f5;
+      font-size: 1.1rem;
+    }
+
+    section {
+      max-width: 1000px;
+      margin: auto;
+      padding: 50px 20px;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    .cards {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #020617;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    }
+
+    .card h3 {
+      color: #38bdf8;
+      margin-top: 0;
+    }
+
+    .price {
+      text-align: center;
+      font-size: 2rem;
+      color: #22c55e;
+      margin: 20px 0;
+    }
+
+    .buy {
+      text-align: center;
+    }
+
+    .buy button {
+      background: #38bdf8;
+      color: #020617;
+      border: none;
+      padding: 15px 35px;
+      font-size: 1.1rem;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    .buy button:hover {
+      background: #0ea5e9;
+    }
+
+    .payment {
+      background: #020617;
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 25px;
+      background: #020617;
+      color: #94a3b8;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Carros Novos, Clássicos e Elétricos</h1>
+  <p>Entenda o passado, o presente e o futuro da mobilidade</p>
+</header>
+
+<section>
+  <h2>📘 O que você vai aprender</h2>
+
+  <div class="cards">
+    <div class="card">
+      <h3>🚗 Carros Clássicos</h3>
+      <p>História, curiosidades e modelos que marcaram época.</p>
+    </div>
+
+    <div class="card">
+      <h3>🚘 Carros Modernos</h3>
+      <p>Tecnologias atuais, conforto, segurança e desempenho.</p>
+    </div>
+
+    <div class="card">
+      <h3>⚡ Carros Elétricos</h3>
+      <p>Como funcionam, vantagens e o futuro sustentável.</p>
+    </div>
+  </div>
+</section>
+
+<section>
+  <h2>💰 Preço</h2>
+  <div class="price">R$ 10,00</div>
+
+  <div class="buy">
+    <button onclick="document.getElementById('pagamento').scrollIntoView({behavior:'smooth'})">
+      Comprar Agora
+    </button>
+  </div>
+</section>
+
+<section id="pagamento">
+  <h2>💳 Pagamento</h2>
+
+  <div class="payment">
+    <p><strong>Pagamento seguro via PIX (Nubank)</strong></p>
+    <p>Você será redirecionado para o pagamento oficial.</p>
+
+    <!-- COLE O LINK DO PIX DO NUBANK ABAIXO -->
+    <a href="https://nubank.com.br/cobrar/d56t6d/695470ca-5dab-45dd-9d04-df54c7a29f64" target="_blank">
+      <button style="margin-top:15px;">
+        Pagar R$10 via PIX
+      </button>
+    </a>
+
+    <p style="font-size:12px; margin-top:15px;">
+      Venda realizada com autorização de responsável legal.
+    </p>
+  </div>
+</section>
+
+<footer>
+  © 2025 • E-book Educacional • Projeto com autorização dos responsáveis
+</footer>
+
+</body>
+</html>
